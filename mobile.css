@@ -1,6 +1,7 @@
 @media (max-width: 599px) { 
   body{
     margin: 0;
+    color:white;
   }
 
   header, footer{
@@ -11,12 +12,12 @@
   }
 
   header{
-    background-image: url(/UFO.png);
+    background-image: url(./UFO.png);
   }
 
   footer{
     bottom: 0;
-    background-image: url(/moon.jpg);
+    background-image: url(./moon.jpg);
   }
 
   header h2{
@@ -50,6 +51,7 @@
 
   a img {
     display: block;
+    transform: scale(0.5);
   }
   label{
     display: block;
@@ -72,7 +74,7 @@
   }
 
   #TV{
-    background-image: url(/TV.png);
+    background-image: url(./TV.png);
     height:678px;
     z-index: 10;
   }

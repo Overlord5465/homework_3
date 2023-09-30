@@ -14,13 +14,13 @@
   }
 
   header{
-    background-image: url(/UFO.png);
+    background-image: url(./UFO.png);
     height: 120px;
   }
 
   footer{
     bottom: 0;
-    background-image: url(/moon.jpg);
+    background-image: url(./moon.jpg);
   }
 
   header h2{
@@ -79,7 +79,7 @@
   }
 
   #TV{
-    background-image: url(/TV.png);
+    background-image: url(./TV.png);
     height:678px;
     z-index: 10;
   }
