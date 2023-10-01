@@ -19,47 +19,44 @@
   </header>
   <div id="centre">
 
-    <div id="saturn">
+    <nav class="frame">
+      <ul>
+        <li>Абсолютная гиперссылка <a href="http://www.kubsu.ru/">здесь.</a></li>
+        <li>Абсолютная гиперссылка с протоколом https <a href="https://www.kubsu.ru/">здесь</a></li>
+        <li>Ссылка-изображение<a href="https://www.kubsu.ru/"><img src="my_image_1.png" alt=""></a></li>
+        <li>Сокращенная ссылка на внутреннюю страницу <a href="/page1.html">здесь</a></li>
+        <li>Сокращенную ссылка на главную страницу<a href="/index.html">здесь</a></li>
+        <li>Ссылка на фрагмент текущей страницы <a href="#abc">здесь</a></li>
+        <li><a href="https://kubsu.ru/?product=1234&color=pink&size=m">ссылка с тремя параметрами кубгу</a></li>
+        <li> <a href="https://www.kubsu.ru/ru/abiturient/dogovor?id=omega-media-query-dummy">Ссылка с параметром id</a></li>
+        <li><a href="./page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+        <li><a href="./about/page2.html">Относительная на страницу в каталоге about</a></li>
+        <li><a href="./about/page2.html">Относительная на страницу в каталоге уровнем выше текущего;</a></li>
+        <li><a href="./about/level2/page3.html">Относительная ссылка на страницу в каталоге двумя уровнями выше;</a></li>
+        <li>контекстную (прямо <a href="page.html">здесь</a>) в тексте абзаца</li>
+        <li>ссылку на фрагмент страницы стороннего сайта <a href='https://ru.wikipedia.org/wiki/Картофель?#Популярные_сорта_картофеля'>здесь</a>;</li>
+        <li id="abc">ссылки из прямоугольных и круглых областей картинки (HTML-тег map).
+          <map name="AaA">
+            <area shape="poly" coords="0,0,0,150,150,150 " href="page1.html" alt=""/>
+            <area shape="circle" coords="275,75,75" href="./about/page2.html" alt=""/>
+          </map>
+          <img usemap="#AaA" src="350x150.png" alt="350 x 150 pic" /></li>
+        <li>Ссылка с пустым href <a href="">здесь</a></li>
+        <li>Cсылка без href <a>здесь</a>;</li>
+        <li>Ссылка, по которой запрещен переход поисковикам <a href="https://example.com/" rel="nofollow">здесь</a></li>
+        <li>запрещенную для индексации поисковиками <noindex><a href="https://example.com/">здесь</a></noindex> </li>
+        <li>нумерованный список ссылок с подписями title:
+          <ol>
+            <li>Ссылка на page1 <a href="/page1.html" title="page1">здесь</a></li>
+            <li>Ссылка на page2 <a href="./about/page2.html" title="page2">здесь</a></li>
+            <li>Ссылка на page3 <a href="./about/level2/page3.html" title="page3">здесь</a></li>
+            </ol>
+        </li>
+        <li>ссылку на файл на сервере FTP с авторизацией;</li>
+      </ul>
+    </nav>
 
-      <nav>
-        <ul>
-          <li>Абсолютная гиперссылка <a href="http://www.kubsu.ru/">здесь.</a></li>
-          <li>Абсолютная гиперссылка с протоколом https <a href="https://www.kubsu.ru/">здесь</a></li>
-          <li>Ссылка-изображение<a href="https://www.kubsu.ru/"><img src="my_image_1.png" alt=""></a></li>
-          <li>Сокращенная ссылка на внутреннюю страницу <a href="/page1.html">здесь</a></li>
-          <li>Сокращенную ссылка на главную страницу<a href="/index.html">здесь</a></li>
-          <li>Ссылка на фрагмент текущей страницы <a href="#abc">здесь</a></li>
-          <li><a href="https://kubsu.ru/?product=1234&color=pink&size=m">ссылка с тремя параметрами кубгу</a></li>
-          <li> <a href="https://www.kubsu.ru/ru/abiturient/dogovor?id=omega-media-query-dummy">Ссылка с параметром id</a></li>
-          <li><a href="./page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
-          <li><a href="./about/page2.html">Относительная на страницу в каталоге about</a></li>
-          <li><a href="./about/page2.html">Относительная на страницу в каталоге уровнем выше текущего;</a></li>
-          <li><a href="./about/level2/page3.html">Относительная ссылка на страницу в каталоге двумя уровнями выше;</a></li>
-          <li>контекстную (прямо <a href="page.html">здесь</a>) в тексте абзаца</li>
-          <li>ссылку на фрагмент страницы стороннего сайта <a href='https://ru.wikipedia.org/wiki/Картофель?#Популярные_сорта_картофеля'>здесь</a>;</li>
-          <li id="abc">ссылки из прямоугольных и круглых областей картинки (HTML-тег map).
-            <map name="AaA">
-              <area shape="poly" coords="0,0,0,150,150,150 " href="page1.html" alt=""/>
-              <area shape="circle" coords="275,75,75" href="./about/page2.html" alt=""/>
-            </map>
-            <img usemap="#AaA" src="350x150.png" alt="350 x 150 pic" /></li>
-          <li>Ссылка с пустым href <a href="">здесь</a></li>
-          <li>Cсылка без href <a>здесь</a>;</li>
-          <li>Ссылка, по которой запрещен переход поисковикам <a href="https://example.com/" rel="nofollow">здесь</a></li>
-          <li>запрещенную для индексации поисковиками <noindex><a href="https://example.com/">здесь</a></noindex> </li>
-          <li>нумерованный список ссылок с подписями title:
-            <ol>
-              <li>Ссылка на page1 <a href="/page1.html" title="page1">здесь</a></li>
-              <li>Ссылка на page2 <a href="./about/page2.html" title="page2">здесь</a></li>
-              <li>Ссылка на page3 <a href="./about/level2/page3.html" title="page3">здесь</a></li>
-              </ol>
-          </li>
-          <li>ссылку на файл на сервере FTP с авторизацией;</li>
-        </ul>
-      </nav>
-    </div>
-
-    <form action="bad" method="post">
+    <form class="frame" action="bad" method="post">
 
       <label for="name">Введите Ф.И.О.:<input id="name" type="text" name="name" placeholder="Иванов Иван Иванович"/></label>
       
@@ -111,7 +108,6 @@
 
     </form>
     <div id="TV">
-
       <table id="table">
         <thead>
           <tr>
