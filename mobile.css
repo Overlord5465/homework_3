@@ -24,6 +24,7 @@
   footer{
     bottom: 0;
     background-image: url(./moon.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
   }
 
