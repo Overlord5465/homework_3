@@ -54,11 +54,11 @@
   }
 
   #centre > form{
-    order:1;
+    order:2;
   }
 
   #centre > nav{
-    order:2;
+    order:1;
   }
 
   #centre > div{
