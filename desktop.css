@@ -15,6 +15,7 @@
 
   header{
     background-image: url(./UFO.png);
+    background-repeat: no-repeat;
     height: 120px;
   }
 
@@ -85,7 +86,6 @@
   #earth{
     z-index: -10;
     position: fixed;
-    size:80%;
   }
 
   #TV{

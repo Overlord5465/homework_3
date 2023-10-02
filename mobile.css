@@ -84,7 +84,6 @@
   #earth{
     z-index: -10;
     position: fixed;
-    size:80%;
   }
 
   #table {
