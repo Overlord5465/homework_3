@@ -58,27 +58,27 @@
 
     <form class="frame" action="bad" method="post" id="form">
 
-      <label for="name">Введите Ф.И.О.:<input id="name" type="text" name="name" placeholder="Иванов Иван Иванович"/></label>
+      <label for="name">Введите Ф.И.О.:<input id="name" type="text" name="name" placeholder="Иванов Иван Иванович" required/></label>
       
 
-      <label for="phone">Введите номер телефона:<input id="phone" type="tel" name="name" placeholder="+79887776655"/></label>
+      <label for="phone">Введите номер телефона:<input id="phone" type="tel" name="name" placeholder="+79887776655" required/></label>
       
 
-      <label for="email">Введите email:<input type="email" name="email" id="email" placeholder="Ivan123@mail.ru"></label>
+      <label for="email">Введите email:<input type="email" name="email" id="email" placeholder="Ivan123@mail.ru" required></label>
       
 
-      <label for="date">Введите дату рождения:<input type="date" name="date" id="date"></label>
+      <label for="date">Введите дату рождения:<input type="date" name="date" id="date" required></label>
 
       <label for="m">
-        <input type="radio" id="m" name="title" value="M.">
+        <input type="radio" id="m" name="title" value="M." required>
         Mister
       </label>
-      <input type="radio" name="title" value="Ms.">
+      <input type="radio" name="title" value="Ms." required>
         Miss
       
       <label for="multi">
         Любимый язык программирования:
-        <select multiple name="multi" id="multi">
+        <select multiple name="multi" id="multi" required>
           <option>Pascal</option>
           <option>C</option>
           <option>C++</option>
@@ -96,12 +96,12 @@
       <label for="message">
         Ваша биография:
         <textarea id="message" name="message"
-        placeholder="Родился бла бла... Поступил бла бла..."></textarea>
+        placeholder="Родился бла бла... Поступил бла бла..." required></textarea>
       </label>
 
       <label for="checkbox">
         С контрактом не ознакомлен
-        <input id="checkbox" type="checkbox" name="checkbox">
+        <input id="checkbox" type="checkbox" name="checkbox" required>
       </label> 
       
       <button type="submit">Сохранить</button>(не нажимать, всё ломается)
