@@ -13,13 +13,13 @@
   <header>
     <img id="logo" src="logo.png" alt="">
     <h1 id="title">Homework</h1>
-    <h2><a href="http://www.kubsu.ru/">Ссылка меню 1</a></h2>
-    <h2><a href="http://www.kubsu.ru/">Ссылка 2</a></h2>
-    <h2><a href="http://www.kubsu.ru/">Ссылка 3</a></h2>
+    <h2><a href="#list">Ссылка на список ссылок</a></h2>
+    <h2><a href="#form">Ссылка на форму</a></h2>
+    <h2><a href="#table">Ссылка на таблицу</a></h2>
   </header>
   <div id="centre">
 
-    <nav class="frame">
+    <nav class="frame" id="list">
       <ul>
         <li>Абсолютная гиперссылка <a href="http://www.kubsu.ru/">здесь.</a></li>
         <li>Абсолютная гиперссылка с протоколом https <a href="https://www.kubsu.ru/">здесь</a></li>
@@ -56,7 +56,7 @@
       </ul>
     </nav>
 
-    <form class="frame" action="bad" method="post">
+    <form class="frame" action="bad" method="post" id="form">
 
       <label for="name">Введите Ф.И.О.:<input id="name" type="text" name="name" placeholder="Иванов Иван Иванович"/></label>
       
