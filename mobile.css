@@ -19,6 +19,9 @@
     background-image: url(./UFO.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
   }
 
   footer{
@@ -27,7 +30,7 @@
   }
 
   header h2{
-    margin: auto;
+    margin: 10px;
     background-color: rgba(61, 61, 61, 0.9);
     border-radius: 10px;
     padding: 10px;
