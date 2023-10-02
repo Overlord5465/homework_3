@@ -1,6 +1,9 @@
 @media (max-width: 599px) { 
   body{
+    background-color: black;
     background-image: url(./earth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0;
     color:white;
   }
@@ -13,12 +16,15 @@
   }
 
   header{
-    background-image: url(./mobileUFO.png);
+    background-image: url(./UFO.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   footer{
     bottom: 0;
     background-image: url(./moon.jpg);
+    background-size: 100%;
   }
 
   header h2{
